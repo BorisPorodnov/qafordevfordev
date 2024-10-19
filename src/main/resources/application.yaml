@@ -5,9 +5,9 @@ spring:
   application:
     name: "qafordevs"
   datasource:
-    url: jdbc:postgresql://localhost:5432/qafordevs
-    username: postgres
-    password: postgres
+    url: jdbc:postgresql://localhost:5432/habrdb
+    username: habrpguser
+    password: pgpwd4habr
     driver-class-name: org.postgresql.Driver
   jpa:
     hibernate:
